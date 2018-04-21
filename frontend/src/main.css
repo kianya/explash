@@ -4,3 +4,32 @@
 body {
     line-height: 2;
 }
+p {
+    text-align: center;
+    font-size: 48px;
+    text-indent: 1.5em;
+    margin: 0px
+}
+#explashname {
+    color: white;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+}
+#explashtooltips {
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    color: white;
+    padding: 8px 16px;
+    min-width: 88px;
+    font-size: 0.875rem;
+    box-sizing: border-box;
+    min-height: 36px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.4em;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 500;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
